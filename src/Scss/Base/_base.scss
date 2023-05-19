@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code,
+html {
+  font-family: -apple-system sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  //   font-size: 16px;
+}
+// p {
+//   // color: #a3a2a2;
+// }
+a {
+  text-decoration: none;
+}
+/* Define default font size */
+body {
+  font-size: 16px;
+}
+
+/* Adjust font size for smaller screens */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Adjust font size for even smaller screens */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+}

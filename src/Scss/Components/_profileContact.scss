@@ -1,0 +1,40 @@
+.profileContact {
+  //   width: 100%;
+  background-color: #b9b9b9;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 20px;
+  line-height: 30px;
+  svg {
+    margin-right: 5px;
+  }
+
+  &__mail {
+    display: flex;
+    align-items: center;
+    // margin-bottom: 2px solid #fff;
+  }
+  &__editmail {
+    margin-left: auto;
+    &:hover {
+      font-size: 10px;
+      border-radius: 100%;
+      background-color: #ddd;
+    }
+  }
+  &__linked {
+    display: flex;
+    align-items: center;
+  }
+  &__call {
+    display: flex;
+    align-items: center;
+  }
+  &__onMode {
+    display: flex;
+    align-items: center;
+  }
+  &__switch {
+    margin-left: auto;
+  }
+}
